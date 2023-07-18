@@ -1,5 +1,20 @@
 {
-  "users": [],
+  "users": [
+    {
+      "Name": "Raj Mori",
+      "Email": "moriraj@gmail.com",
+      "Address": "Mori ,somnath",
+      "Phone": "21345654321",
+      "id": 1
+    },
+    {
+      "Name": "Raju Rashtogi",
+      "Email": "Raju@gmail.com",
+      "Address": "Eg College",
+      "Phone": "4532543",
+      "id": 2
+    }
+  ],
   "comments": [
     {
       "id": 1,
