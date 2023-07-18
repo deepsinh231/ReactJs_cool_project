@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/ReactJs_cool_project/static/css/main.aec9c5c9.css",
+    "main.js": "/ReactJs_cool_project/static/js/main.471a0e0c.js",
+    "static/css/658.8a800ba9.chunk.css": "/ReactJs_cool_project/static/css/658.8a800ba9.chunk.css",
+    "static/js/658.29d932c8.chunk.js": "/ReactJs_cool_project/static/js/658.29d932c8.chunk.js",
+    "static/js/238.5360a5a3.chunk.js": "/ReactJs_cool_project/static/js/238.5360a5a3.chunk.js",
+    "static/js/787.f055211e.chunk.js": "/ReactJs_cool_project/static/js/787.f055211e.chunk.js",
+    "static/js/538.5558d31e.chunk.js": "/ReactJs_cool_project/static/js/538.5558d31e.chunk.js",
+    "static/js/243.82f32b8e.chunk.js": "/ReactJs_cool_project/static/js/243.82f32b8e.chunk.js",
+    "static/js/623.34330c25.chunk.js": "/ReactJs_cool_project/static/js/623.34330c25.chunk.js",
+    "static/media/fa-solid-900.ttf": "/ReactJs_cool_project/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/fa-brands-400.ttf": "/ReactJs_cool_project/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/ReactJs_cool_project/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/fa-brands-400.woff2": "/ReactJs_cool_project/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/fa-regular-400.ttf": "/ReactJs_cool_project/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/fa-regular-400.woff2": "/ReactJs_cool_project/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/fa-v4compatibility.ttf": "/ReactJs_cool_project/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/ReactJs_cool_project/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/ReactJs_cool_project/index.html",
+    "main.aec9c5c9.css.map": "/ReactJs_cool_project/static/css/main.aec9c5c9.css.map",
+    "main.471a0e0c.js.map": "/ReactJs_cool_project/static/js/main.471a0e0c.js.map",
+    "658.8a800ba9.chunk.css.map": "/ReactJs_cool_project/static/css/658.8a800ba9.chunk.css.map",
+    "658.29d932c8.chunk.js.map": "/ReactJs_cool_project/static/js/658.29d932c8.chunk.js.map",
+    "238.5360a5a3.chunk.js.map": "/ReactJs_cool_project/static/js/238.5360a5a3.chunk.js.map",
+    "787.f055211e.chunk.js.map": "/ReactJs_cool_project/static/js/787.f055211e.chunk.js.map",
+    "538.5558d31e.chunk.js.map": "/ReactJs_cool_project/static/js/538.5558d31e.chunk.js.map",
+    "243.82f32b8e.chunk.js.map": "/ReactJs_cool_project/static/js/243.82f32b8e.chunk.js.map",
+    "623.34330c25.chunk.js.map": "/ReactJs_cool_project/static/js/623.34330c25.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aec9c5c9.css",
+    "static/js/main.471a0e0c.js"
+  ]
+}
