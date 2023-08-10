@@ -1,0 +1,90 @@
+ .button button {
+     border: none;
+     padding: 10px 20px;
+     background-color: black;
+     border-radius: 10px;
+     margin: 0 10px;
+     color: rgb(255, 255, 255);
+     cursor: pointer;
+     font-size: 20px;
+     text-emphasis: none;
+ }
+
+ .toastboxs{
+     position: absolute;
+     bottom: 0;
+     /* top : 20px; */
+     z-index: 3;
+     right: 20px;
+     padding: 10px;
+     display: flex;
+     align-items: flex-end;
+     flex-direction: column;
+     overflow: hidden;
+ }
+
+ .toastd {
+     position: relative;
+     width: 250px;
+     height: 40px;
+     z-index: 5;
+     color: green;
+     background: white;
+     box-shadow: 5px 5px 5px rgba(107, 107, 107, 0.651);
+     margin: 10px 0;
+     display: flex;
+     align-items: center;
+     transform: translateX(100%);
+     animation: see 0.5s linear forwards;
+     opacity: 0;
+ }
+
+ @keyframes see {
+     100% {
+         transform: translateX(0);
+         opacity: 1;
+
+     }
+ }
+
+ .toastd i {
+     margin: 0 20px;
+     color: green;
+     font-size: 20px;
+     text-shadow: 2px 2px 5px rgba(0, 128, 0, 0.349);
+ }
+
+ .toastd.Error,
+ .toastd.Error i {
+     color: red;
+ }
+
+ .toastd.Invalid,
+ .toastd.Invalid i {
+     color: orange;
+ }
+
+ .toastd::after {
+     content: '';
+     position: absolute;
+     width: 100%;
+     height: 5px;
+     background-color: green;
+     bottom: 0;
+     left: 0;
+     animation: progres 5s linear forwards;
+ }
+
+ @keyframes progres {
+     100% {
+         width: 0;
+     }
+ }
+
+ .toastd.Error::after {
+     background-color: red;
+ }
+
+ .toastd.Invalid::after {
+     background-color: orange;
+ }

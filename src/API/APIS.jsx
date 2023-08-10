@@ -8,7 +8,7 @@ import Users from './Crud/user.jsx'
 import Adduser from './Crud/adduser.jsx'
 import Edit from './Crud/Edit.jsx'
 import Coloergenret from './Coloergenret.jsx'
-import StongPaasword from './StongPaasword.jsx'
+import ToastNotification from './ToastNotification.jsx'
 
 
 class Hooks extends Component {
@@ -52,7 +52,7 @@ class Hooks extends Component {
                             <Link to="AxiosCRUD"><button className='btn btnp'>Axios CRUD with JSON SERVER</button></Link>
                             <Link to="NumberToWord"><button className='btn btnp'>Number To Word</button></Link>
                             <Link to="Coloergenret"><button className='btn btnp'>Coloergenret</button></Link>
-                            <Link to="StongPaasword"><button className='btn btnp'>Stong Paasword</button></Link>
+                            <Link to="ToastNotification"><button className='btn btnp'>Toast Notification</button></Link>
                             
                         </div>
                     </div>
@@ -68,7 +68,7 @@ class Hooks extends Component {
                                 <Route path='AxiosCRUD/edit/:id' element={<Edit/>}></Route>
                                 <Route path='NumberToWord' element={<NumberToWord/>}></Route>
                                 <Route path='Coloergenret' element={<Coloergenret/>}></Route>
-                                <Route path='StongPaasword' element={<StongPaasword/>}></Route>
+                                <Route path='ToastNotification' element={<ToastNotification/>}></Route>
                                
                             </Routes>
                         </div>
