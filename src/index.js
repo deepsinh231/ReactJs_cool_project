@@ -12,7 +12,10 @@ import Login from './login';
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <>
-    <Login />
+    <section className='sections'>
+      <div class="zinde"><Login /></div>
+      <div class="wevy"></div>
+    </section>
   </>
 );
 reportWebVitals();
