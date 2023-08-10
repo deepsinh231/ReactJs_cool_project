@@ -1,0 +1,12 @@
+.color-genret{
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+}
+.stop-class{
+    margin: 17px auto;
+    display: inherit;
+}
+.coloreul li{
+    list-style:none;
+}

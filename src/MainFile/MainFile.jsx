@@ -3,7 +3,7 @@ import Hedar from "./Hedar/Hedar.jsx";
 import Error from "./Comancoponert/Error.jsx";
 import Home from "./Page/Home.jsx";
 import Link from "./Page/Link.jsx";
-import Login from "./Page/Login.jsx";
+import Logins from "./Page/Login.jsx";
 import React, { Suspense } from "react";
 
 const API = React.lazy(() => import('../API/APIS.jsx'))
@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     },
     {
         path: "/",
-        element: <Navigate to='/home' replace={true} />,
+        element: <Navigate to='/Home' replace={true} />,
     },
     {
         path: "/home",
@@ -45,7 +45,8 @@ const router = createBrowserRouter([
     },
     {
         path: "/login",
-        element: <><Hedar /><Login /></>,
+        element: <><Hedar /><Logins /></>,
     },
 ]);
+
 export default router;

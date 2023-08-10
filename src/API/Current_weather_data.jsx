@@ -37,7 +37,7 @@ const Current_weather_data = () => {
     }
     return (
         <>
-            <input type="search" value={search} onChange={(e) => { setsearch(e.target.value) }} />
+            <input type="search" placeholder='Any city name' value={search} onChange={(e) => { setsearch(e.target.value) }} />
             <button onClick={CurrentLocation}>Current Location</button><span className='failclass'>{fail}</span>
             {!citymain ? <p>no data found</p> : <div>
                 <p>City Name is <span className='weather'>{search}</span></p>

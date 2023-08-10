@@ -23,20 +23,27 @@ class Hooks extends Component {
         super(props);
         this.state = {
             togal: false,
-            addclass: "thisremove col-20"
+            addclass: "thisremove col-20",
+            icon:"fa-solid fa-grip-lines"
+
         };
     }
     btnadd = () => {
         this.setState({ addclass: "thisremove col-20" })
         this.setState({ togal: !this.state.togal })
+        this.setState({ icon: "fa-solid fa-grip-lines" })
+            this.setState({ icon: "fa-solid fa-grip-lines" })
+
     }
     togalebtn = () => {
         this.setState({ togal: !this.state.togal })
         if (!this.state.togal) {
             this.setState({ addclass: "thisadd col-20" })
+            this.setState({ icon: "fa-solid fa-grip-lines deep" })
+
         } else {
             this.setState({ addclass: "thisremove col-20" })
-
+            this.setState({ icon: "fa-solid fa-grip-lines" })
         }
     }
 
@@ -44,7 +51,7 @@ class Hooks extends Component {
         return (
             <>
 
-                <button className='togal' onClick={this.togalebtn}>this</button>
+                <button className='togal' onClick={this.togalebtn}><i class={this.state.icon}></i></button>
                 <div className='display-flex '>
                     <div className={this.state.addclass}  onClick={this.btnadd}>
                         <div >

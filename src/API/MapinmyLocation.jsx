@@ -32,7 +32,7 @@ const MapinmyLocation = () => {
 
     }
     const faillocatin = () => {
-        setfaillocatin("Current Location Error")
+        setfaillocatin("Current Location Error plz allow Location")
 
     }
     const CurrentLocation = async () => {
@@ -40,7 +40,7 @@ const MapinmyLocation = () => {
     }
     return (
         <div>
-            <input type="text" onChange={(e) => { setstate(e.target.value) }} />
+            {/* <input type="text" onChange={(e) => { setstate(e.target.value) }} /> */}
             <button onClick={CurrentLocation}>Current Location</button><span>{fail}</span>
             <br />
             MY Location
@@ -61,7 +61,7 @@ const MapinmyLocation = () => {
                     <p>geometry:- <span className='span-tag'>{citymain["geometry"]["lat"]}</span></p>
                     <p>geometry:- <span className='span-tag'>{citymain["geometry"]["lng"]}</span></p>
                     {/* <iframe src={lanlat} width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
-                    <iframe src={lanlat} width="600" height="450" ></iframe>
+                    <iframe src={lanlat} className='w100 h500' ></iframe>
                 </>
             }
         </div>

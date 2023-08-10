@@ -2,10 +2,12 @@ import React, { useEffect, useState } from 'react';
 import { Link } from "react-router-dom";
 import axios from 'axios';
 import './Crud.css'
+import SyntaxHighlighter from 'react-syntax-highlighter';
+import { atomOneDarkReasonable } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 const AxiosCRUD = () => {
     const [user, setuser] = useState([]);
-    const tabaledata = async() => {
+    const tabaledata = async () => {
         const url = "http://localhost:3000/users"
         axios.get(url)
             .then((res) => {
@@ -16,14 +18,14 @@ const AxiosCRUD = () => {
     useEffect(() => {
         tabaledata()
     }, [])
-    const  Delete=async(id)=> {
-    
-            axios.delete(`http://localhost:3000/users/${id}`)
+    const Delete = async (id) => {
+
+        axios.delete(`http://localhost:3000/users/${id}`)
             .then(
-                tabaledata() 
+                tabaledata()
             )
-           
-        
+
+
     }
     return (
         <>
@@ -156,8 +158,17 @@ const AxiosCRUD = () => {
                     </div>
                 </div> */}
             </div>
+            <SyntaxHighlighter className="rounded-5" language="jsx" style={atomOneDarkReasonable}>
+                {codeString}
+            </SyntaxHighlighter>
         </>
     );
 };
 
 export default AxiosCRUD;
+const codeString = `
+    note:- plz follow 3 line and use
+    1. Start To live server "http://localhost:3000"
+    2. open db.json file
+    3. add this:-{"users": []} 
+`

@@ -1,3 +1,5 @@
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap'); 
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,8 +12,14 @@ body {
 
 * {
   transition: all 1s;
+  font-family: 'Quicksand', sans-serif;
 }
-
+.w100{
+  width: 100%;
+}
+.h500{
+  height: 70vh;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -22,6 +30,19 @@ code {
   justify-content: center;
   align-items: center;
   height: 90vh;
+}
+
+.togal {
+  border: none;
+  width: 50px;
+  margin-left: auto;
+  background: none;
+}
+.deep{
+  transform: rotate(90deg);
+}
+.togal i{
+  font-size: 100%;
 }
 
 .errorfont {
@@ -98,7 +119,8 @@ code {
   display: none;
 }
 
-.weather,.span-tag {
+.weather,
+.span-tag {
   color: red;
   padding: 5px;
 }

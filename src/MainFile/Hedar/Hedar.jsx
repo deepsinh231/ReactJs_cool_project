@@ -19,7 +19,7 @@ import { Link } from 'react-router-dom';
 
 export default function App() {
     const [showBasic, setShowBasic] = useState(false);
-    const Menu = { "/home": "Home", "/link": "Link", "/login": "Login" };
+    const Menu = { "/home": "Home", "/link": "Link","/login":"Login" };
     const ObjeMenu = Object.keys(Menu)
     const Menucard = ObjeMenu.map((key) => {
         return <MDBNavbarItem key={key}><MDBNavbarLink active aria-current='page'><Link to={key} className='nav-link'>{Menu[key]}</Link></MDBNavbarLink></MDBNavbarItem>
